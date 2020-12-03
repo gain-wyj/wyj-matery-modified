@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 韦阳的博客
-subtitle: 算法码上来
-description: 华东师范大学 | 计算机科学与技术 | 自然语言处理
-keywords: "ECNU NLP DeepLearning AntNLP 韦阳 godweiyang WeiYang 自然语言处理 深度学习 算法码上来"
-author: 韦阳
+title: 梦魇回生的博客
+subtitle: 做一个柔情的程序猿
+description: 北京印刷学院 | 信息与通信工程 | 图像编码与识别
+keywords: "图像编码与识别 梦魇回生 gain-wyj python matlab 做一个柔情的程序猿"
+author: 梦魇回生
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://godweiyang.com
+url: https://gain-wyj.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -113,7 +113,7 @@ theme: matery
 deploy:
 - type: git
   repository:
-    github: git@github.com:godweiyang/godweiyang.github.io.git
+    github: https://github.com/gain-wyj/gain-wyj.github.io
     # coding: git@e.coding.net:godweiyang/godweiyang.git
   branch: master
 - type: baidu_url_submitter

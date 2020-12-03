@@ -13,7 +13,6 @@ layout: "friends"
 * **头像：**你的头像地址
 
 例如我的博客友链，大家可以加到自己博客里哦：
-* **名称：**godweiyang
-* **地址：**https://godweiyang.com
-* **简介：**公众号【算法码上来】，分享深度学习与NLP算法
-* **头像：**https://godweiyang.com/medias/avatars/avatar.jpg
+* **名称：**gain-wyj
+* **地址：**https://gain-wyj.cn
+* **简介：**公众号【做一个柔情的程序猿】，分享python和matlab算法

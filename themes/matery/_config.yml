@@ -39,7 +39,7 @@ dream:
   showTitle: true
   title: 欢迎关注
   text: 我搬到谁的隔壁，谁成了我的邻居。鸣谢生命有你参与，笑纳我的邀请。
-  img: https://pic1.zhimg.com/80/v2-0205cde00e314b1414a5e9d94106a431_r.jpg
+  img: https://i.loli.net/2020/12/01/rRvDLHseiCYhAJm.jpg
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -90,17 +90,17 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/godweiyang
+  url: https://github.com/gain-wyj
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 792321264
-  github: godweiyang
-  weibo: godweiyang
-  email: godweiyang@gmail.com
-  zhihu: godweiyang
+  qq: 3286547557
+  github: gain-wyj
+  weibo: 时光静好0岁月如歌
+  email: 3286547557@qq.com
+  zhihu: 梦魇
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -119,7 +119,7 @@ code:
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
   enable: true
-  title: 写作不易，客官能否打赏一杯奶茶？
+  title: 真诚赞赏，手留余香
   wechat: /medias/reward/wechat.png
   alipay: /medias/reward/alipay.jpg
 
@@ -165,9 +165,9 @@ text:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatars/avatar.jpg
-  career: 华东师范大学 | 计算机科学与技术 | AntNLP
-  introduction: 我是华东师范大学计算机科学与技术专业2018级硕士研究生。直研进入本校计算机系攻读硕士，研究方向是深度学习与自然语言处理。我们实验室是AntNLP，欢迎大家报考！欢迎关注我的微信公众号「算法码上来」，干货每天不错过！
+  avatar: /medias/avatars/mpy634.png
+  career: 北京印刷学院 | 信息与通信工程 | 图像编码与识别
+  introduction: 我是北京印刷学院信息与通信专业2019级硕士研究生。研究方向是图像编码与识别。我们实验室是信息防伪与信息隐藏研究室，欢迎大家报考！欢迎关注我的微信公众号「做一个柔情的程序猿」，干货每天不错过！
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -178,18 +178,18 @@ myProjects:
     hexo-matery-modified:
       icon: fa-meetup
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: https://github.com/godweiyang/hexo-matery-modified
+      url: https://github.com/gain-wyj/gain-wyj.github.io/tree/master
       desc: 我的个性化配置过的博客源码，即下即用。
     ConParser:
         icon: fa-database
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/godweiyang/ConParser
-        desc: 基于dynet的成分句法分析模型整合。
+        url: https://fightingmanwyj.blog.csdn.net/
+        desc: 我的CSDN主页，欢迎关注，里面干货满满。
     ECNU-BeamerTemplate:
         icon: fa-file-text-o
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/godweiyang/ECNU_BeamerTemplate
-        desc: 基于Latex Beamer的华东师范大学PPT模板。
+        url: https://fightingmanwyj.blog.csdn.net/article/details/106971653
+        desc: 程序员喜欢浏览的40个网站。
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -209,9 +209,9 @@ mySkills:
     Pytorch:
       background: 'linear-gradient(to right, #951213 0%, #961117 100%)'
       percent: 75%
-    Dynet:
+    Matlab:
       background: 'linear-gradient(to right, #F12F12 0%, #F6464F 100%)'
-      percent: 75%
+      percent: 85%
     Java:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
       percent: 50%
@@ -240,12 +240,12 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: true
-  owner: godweiyang
-  repo: godweiyang.github.io
+  owner: gain-wyj
+  repo: gain-wyj.github.io
   oauth:
-    clientId:   # gitalk配置，需要填写
-    clientSecret:   # gitalk配置，需要填写
-  admin: godweiyang
+    clientId: d7d69ebd9339fe5599a2
+    clientSecret: 017d75ea0a97b30451b760c7ee27ee332045884f
+  admin: gain-wyj
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
@@ -287,7 +287,7 @@ valine:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/godweiyang/hexo-matery-modified
+  url: https://github.com/gain-wyj/gain-wyj.github.io/tree/master
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -409,6 +409,6 @@ reprint:
 
 # 雪花特效
 snow:
-  enable: false
+  enable: true
 
 baidu_push: true

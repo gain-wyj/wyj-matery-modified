@@ -1,7 +1,7 @@
 <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            &copy; 2017-2020 WeiYang. 版权所有
+            &copy; 2020 WangYujun版权所有 | Powered by Hexo | Theme Matery
 
             <% if (theme.wordCount.enable && theme.wordCount.totalCount) { %>
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
@@ -37,8 +37,8 @@
 <script>
     $(document).ready(function () {
 
-        var int = setInterval(fixCount, 50);
-        var pvcountOffset = 80000;
+        var int = setInterval(fixCount, 50);// 50ms周期检测函数
+        var pvcountOffset = 80000;// 初始化首次数据
         var uvcountOffset = 20000;
 
         function fixCount() {
@@ -48,7 +48,7 @@
             }
             if ($("#busuanzi_container_site_pv").css("display") != "none") {
                 $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + uvcountOffset); // 加上初始数据 
-                clearInterval(int);
+                clearInterval(int);// 停止检测
             }
         }
     });
@@ -77,7 +77,7 @@
         minutes - 0-59之间的整数，做为date对象的分钟数
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-        var t1 = Date.UTC(2017, 09, 11, 00, 00, 00); //北京时间2018-2-13 00:00:00
+        var t1 = Date.UTC(2019, 09, 11, 00, 00, 00); //北京时间2019-9-11 00:00:00
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
