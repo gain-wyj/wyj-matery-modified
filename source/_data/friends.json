@@ -1,15 +1,57 @@
 [
     {
-        "name": "godweiyang",
-        "url": "https://godweiyang.com",
+        "name": "gain-wyj",
+        "url": "https://gain-wyj.cn/",
         "title": "访问主页",
-        "introduction": "公众号【算法码上来】，分享深度学习与NLP算法",
-        "avatar": "https://godweiyang.com/medias/avatars/avatar.jpg"
+        "introduction": "公众号【做一个柔情的程序猿】",
+        "avatar": "/medias/avatars/logo.png"
     },{
         "name": "知乎专栏",
-        "url": "https://zhuanlan.zhihu.com/godweiyang",
+        "url": "https://www.zhihu.com/column/c_1277699714369363968",
         "title": "访问主页",
-        "introduction": "一个有温度的深度学习小屋",
-        "avatar": "/medias/avatars/myzhihu.png"
-    }
-]
+        "introduction": "一个有温度的python学习小屋",
+        "avatar": "/medias/avatars/zhihu.jpg"
+    },{
+        "name": "CSDN博客",
+        "url": "https://fightingmanwyj.blog.csdn.net/",
+        "title": "访问主页",
+        "introduction": "✊用知识改变命运✊ 这么多程序猿，你是最独特的一个",
+        "avatar": "/medias/avatars/ywsydwsbn.jpg"
+	},{
+        "name": "今日头条",
+        "url": "https://www.toutiao.com/c/user/token/MS4wLjABAAAAkACnLnujeBRoql-RRbtN_ACkjzAyH4PWADuPwaN4khM/",
+        "title": "访问主页",
+        "introduction": "追剧与技术并存",
+        "avatar": "/medias/avatars/toutiao.jpg"
+	},{
+        "name": "奈何缘浅wyj",
+        "url": "https://www.jianshu.com/c/fea01b4d1016",
+        "title": "前去探索",
+        "introduction": "一个有温度的算法小屋",
+        "avatar": "/medias/avatars/jianshu.png"
+	},{
+        "name": "火山翻译",
+        "url": "hhttps://translate.volcengine.cn/translate",
+        "title": "访问主页",
+        "introduction": "提供全球领先的翻译技术与服务",
+        "avatar": "/medias/avatars/bytedtrans.png"
+	},{
+        "name": "奶牛快传",
+        "url": "https://cowtransfer.com/",
+        "title": "访问主页",
+        "introduction": "提供快速的文件传输服务",
+        "avatar": "/medias/avatars/nainiu.png"
+	},{
+        "name": "图片URL",
+        "url": "https://sm.ms/",
+        "title": "访问主页",
+        "introduction": "获取图片的相关链接",
+        "avatar": "/medias/avatars/spacesac.png"
+	},{
+        "name": "在线wpe模板",
+        "url": "http://www.officeplus.cn/Template/Home.shtml",
+        "title": "访问主页",
+        "introduction": "在线最全Word、ppt、execl模板",
+        "avatar": "/medias/avatars/fun4go.png"
+	}
+] 
